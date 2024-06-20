@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skiemonių seniūnija</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #333;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+ <div class="facebook">
+       <a href="https://www.facebook.com/skiemonysciagerasugrizti" target="_blank"><img src="logo.png" alt="Facebook puslapis"></a>
+      </div>
+    </header>
+  </header>
+  <div class="juosta">
+    <h1>Skiemonys - čia gera sugrįžti!</h1>
+    <div class="mygtukai">
+      <div class="data">
+        <p id="date"></p> 
+      </div>
+      <a href="apie.html">Apie miestelį</a>
+      <a href="kontaktai.html">Kontaktai</a>
+      <a href="renginiai.html">Renginiai</a>
+    </div>
+  </div>
+  <main>
+    <section class="lankytinos-vietos">
+      <h2>Skiemonių seniūnija</h2>
+      <img src="seniunija.jpg" alt="Skiemonys" width="500">
+      <p>Skiemonių seniūnija – administracinis-teritorinis vienetas Anykščių rajono savivaldybės pietryčiuose.</p>
+	  <p>Seniūnija įsikūrusi adresu: Šilo g.3, Skiemonys. Tame pačiame pastate įsikūrusi ir biblioteka.</p>
+      <section class="lankytinos-vietos">
+        <div class="container-fluid global_container index_container">
+          <div class="main_content narrow">
+            <table>
+              <tr>
+                <th>Vardas</th>
+                <th>Pareigos</th>
+                <th>El. paštas</th>
+                <th>Telefonas</th>
+              </tr>
+              <tr>
+                <td>Birutė Kirkienė</td>
+                <td>Seniūno pavaduotoja</td>
+                <td><a href="mailto:birute.kirkene@anyksciai.lt">birute.kirkene@anyksciai.lt</a></td>
+                <td>(8 381) 47 847, mob. 8 611 30 037</td>
+              </tr>
+              <tr>
+                <td>Inga Šidlauskaitė</td>
+                <td>Specialistė</td>
+                <td><a href="mailto:inga.sidlauskaite@anyksciai.lt">inga.sidlauskaite@anyksciai.lt</a></td>
+                <td>(8 381) 47 847</td>
+              </tr>
+              <tr>
+                <td>Virginija Bikuvienė</td>
+                <td>Socialinės paramos skyriaus specialistė</td>
+                <td><a href="mailto:virginija.bikuviene@anyksciai.lt">virginija.bikuviene@anyksciai.lt</a></td>
+                <td>(8 381) 47 884, mob. 8 669 11 356</td>
+              </tr>
+              <tr>
+                <td>Albertas Miliukas</td>
+                <td>Ūkvedys-vairuotojas</td>
+                <td> </td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>Marija Griščenko</td>
+                <td>Mačionių seniūnaitijos seniūnaitė</td>
+                <td><a href="mailto:maryjag@inbox.lt">marijag@inbox.lt</a></td>
+                <td>mob. 8 674 19 126</td>
+              </tr>
+              <tr>
+                <td>Dalia Miškinienė</td>
+                <td>Pūstalaukių seniūnaitijos seniūnaitė</td>
+                <td><a href="mailto:daliamisk@gmail.com">dailiamis@gmail.com</a></td>
+                <td>mob. 8 685 24 162</td>
+              </tr>
+              <tr>
+                <td>Viktorija Karvelienė</td>
+                <td>Skiemonių seniūnaitijos seniūnaitė</td>
+                <td><a href="mailto:viktorija.girkute@gmail.com">viktorija.girkute@gmail.com</a></td>
+                <td>mob. 8 629 73 177</td>
+              </tr>
+              <tr>
+                <td>Rimutė Kanapeckienė</td>
+                <td>Katlėrių seniūnaitijos seniūnaitė</td>
+                <td><a href="mailto:rimutekanapeckiene1@gmail.com">rimutekanapeckiene1@gmail.com</a></td>
+                <td>mob. 8 671 26 217</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="mygtukai">
+          <a href="index.html">Į pradžią</a>
+        </div>
+    </section>
+  </main>
+  <div class="forma-container">
+    <form class="forma">
+      <h2>Susisiekite su mumis</h2>
+      <label for="vardas">Vardas:</label>
+      <input type="text" id="vardas" name="vardas" required>
+      <label for="email">El. paštas:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Žinutė:</label>
+      <textarea id="message" name="message" required></textarea>
+      <input type="submit" value="Siųsti">
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2024 Skiemonių seniūnija</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
